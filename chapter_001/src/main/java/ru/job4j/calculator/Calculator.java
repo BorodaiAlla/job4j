@@ -58,7 +58,7 @@ package ru.job4j.calculator;
         this.result = first * second;
     }
 
-    public double getResult(){
+    public double getResult() {
         return result;
     }
 }
