@@ -16,6 +16,7 @@ package  ru.job4j.max;
     public int max(int first, int second) {
         return first > second ? first : second;
     }
+    public int max()
     /**
      * возвратить максимальное число из "first", "second", "third".
      * @param "first" первый аргумент
@@ -24,8 +25,7 @@ package  ru.job4j.max;
      * @return максимальное число.
      */
     public int max(int first, int second, int third) {
-        int temp = this.max(first, second);
-        Math.max(third, temp);
+        int temp = max(temp, third);
         return temp;
     }
 }
